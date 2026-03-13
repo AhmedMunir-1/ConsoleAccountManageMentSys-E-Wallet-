@@ -20,13 +20,13 @@ namespace EWalletSystem.transaction
 
     public class Transaction
     {
-      public  int Id {get;}
-       public string SenderName {get; set;}
-        public string ReseverName {get; set;}
-        public DateTime Date {get; set;}        
-        public TransactionStatus Status {get; set;}
-        public TransactionType Type {get; set;}
-        public decimal Amount {get; set;}
+        public int Id { get; }
+        public string SenderName { get; set; }
+        public string ReseverName { get; set; }
+        public DateTime Date { get; set; }
+        public TransactionStatus Status { get; set; }
+        public TransactionType Type { get; set; }
+        public decimal Amount { get; set; }
 
         public Transaction(int id, string senderName, string reseverName, DateTime date, TransactionStatus status, TransactionType type, decimal amount)
         {

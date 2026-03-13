@@ -18,15 +18,15 @@ namespace AccountManageMentSystem
             //  withdraw, transfer and change password to the user. The user can use these functionalities without knowing how they are implemented. This is achieved by using classes and methods in C#.
             //  The user can create a wallet object and call the methods to perform the operations without worrying about the internal workings of the wallet and transactions.
 
-           
-            
+
+
             Console.WriteLine("\t\t======================  ==========================");
             Console.WriteLine("\t\t\t\t RunTime Program ");
             Console.WriteLine("\t\t======================  ==========================");
             Console.WriteLine("\t==================== Welcome to E-Wallet System =================\n");
 
-            
-             Console.WriteLine("======================  ==========================");
+
+            Console.WriteLine("======================  ==========================");
             Console.WriteLine("create wallet and do some operations Program ");
             Console.WriteLine("======================  ==========================");
             #region creating wallet and doing some operations
@@ -87,7 +87,7 @@ namespace AccountManageMentSystem
 
             Console.WriteLine("--------- --------");
             Console.WriteLine("--------- --------");
-            
+
             // history is with the distination too
             Console.WriteLine("Transaction history for wallet 2:");
 
