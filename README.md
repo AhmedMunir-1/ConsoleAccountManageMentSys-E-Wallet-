@@ -1,6 +1,5 @@
-                                                          Title 
-                        
-                                              E-Wallet Console Application (C#)
+                                                   Title 
+                                      E-Wallet Console Application (C#)
                                               
 Description : 
 
