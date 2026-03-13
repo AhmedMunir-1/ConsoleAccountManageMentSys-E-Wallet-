@@ -26,3 +26,4 @@
 /Users/ahmed/Desktop/ERA .Net Course/523/D03/AccountManagementSystem/obj/Debug/net10.0/AccountManagementSystem.pdb
 /Users/ahmed/Desktop/ERA .Net Course/523/D03/AccountManagementSystem/obj/Debug/net10.0/AccountManagementSystem.genruntimeconfig.cache
 /Users/ahmed/Desktop/ERA .Net Course/523/D03/AccountManagementSystem/obj/Debug/net10.0/ref/AccountManagementSystem.dll
+/Users/ahmed/Desktop/ERA .Net Course/523/D03/AccountManagementSystem/obj/Debug/net10.0/AccountManagementSystem.sourcelink.json

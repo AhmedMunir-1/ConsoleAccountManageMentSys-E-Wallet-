@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Concurrent;
-using System.Data;
 using EWalletSystem.wallet;
-using EWalletSystem.transaction;
-using System.Collections.Generic;
+
 
 namespace AccountManageMentSystem
 
@@ -21,8 +18,17 @@ namespace AccountManageMentSystem
             //  withdraw, transfer and change password to the user. The user can use these functionalities without knowing how they are implemented. This is achieved by using classes and methods in C#.
             //  The user can create a wallet object and call the methods to perform the operations without worrying about the internal workings of the wallet and transactions.
 
-            Console.WriteLine("====================== ========================== ===================\n");
+           
+            
+            Console.WriteLine("\t\t======================  ==========================");
+            Console.WriteLine("\t\t\t\t RunTime Program ");
+            Console.WriteLine("\t\t======================  ==========================");
+            Console.WriteLine("\t==================== Welcome to E-Wallet System =================\n");
 
+            
+             Console.WriteLine("======================  ==========================");
+            Console.WriteLine("create wallet and do some operations Program ");
+            Console.WriteLine("======================  ==========================");
             #region creating wallet and doing some operations
             Console.WriteLine("--------- --------");
             //trying to create wallet and do some operations
@@ -37,7 +43,11 @@ namespace AccountManageMentSystem
             Console.WriteLine("Transfer 20 from wallet 1 to wallet 2 (fees is 3 so the total amount is 23)");
             Console.WriteLine("--------- --------");
             #endregion
+            Console.WriteLine("================================================");
 
+            Console.WriteLine("======================  ==========================");
+            Console.WriteLine("Get Balances");
+            Console.WriteLine("======================  ==========================");
             #region GetBalance
             decimal? balance1 = wallet1.GetBalance("123");
             decimal? balance2 = wallet2.GetBalance("1234");
@@ -62,8 +72,12 @@ namespace AccountManageMentSystem
 
             Console.WriteLine("--------- --------");
 
-            #endregion
+            #endregion=
+            Console.WriteLine("================================================");
 
+            Console.WriteLine("======================  ==========================");
+            Console.WriteLine("Transaction History For Wallet 1 & Wallet 2");
+            Console.WriteLine("======================  ==========================");
             #region Transaction History
 
             Console.WriteLine("--------- --------");
@@ -80,7 +94,11 @@ namespace AccountManageMentSystem
             wallet2.ShowTransactions("2345", "1234", "012");
             Console.WriteLine("--------- --------");
             #endregion
+            Console.WriteLine("================================================");
 
+            Console.WriteLine("======================  ==========================");
+            Console.WriteLine("ChangePassword");
+            Console.WriteLine("======================  ==========================");
             #region ChangePassword
             // tring to change password with wrong data
             bool isChanged = wallet1.ChangePassword("12384", "012", "12345");
@@ -93,8 +111,9 @@ namespace AccountManageMentSystem
             Console.WriteLine("Password changed successfully");
 
             #endregion
-            // regin for clearing the console and showing the balance of the wallets
+            Console.WriteLine("================================================");
 
+            // regin for clearing the console and showing the balance of the wallets
 
             Console.WriteLine("\n====================== ========================== =================== ");
 
